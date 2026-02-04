@@ -1,0 +1,3 @@
+provider: generic
+url: https://updater-c.cuicanmx.cn/auto-updates
+updaterCacheDirName: linux-installer-updater

@@ -1,0 +1,140 @@
+{
+  "version": "2.2.0",
+  "last_updated": "2026-02-03T00:54:34.039Z",
+  "source": "GitHub/ccmx200/linux-xiaomi-raphael-uboot",
+  "release_tags": {
+    "ubuntu-server": "ubuntu-server-v6.18",
+    "ubuntu-desktop": "ubuntu-desktop-v6.18-phosh-core",
+    "debian-server": "debian-server-v6.18",
+    "debian-desktop": "debian-desktop-v6.18-phosh-core"
+  },
+  "images": {
+    "boot": {
+      "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/u-boot/u-boot-sm8150-xiaomi-raphael.img.zip",
+      "description": "小米K20 Pro启动镜像",
+      "required": true,
+      "size": 564780,
+      "size_human": "551.54 KB",
+      "last_modified": "Sun, 01 Feb 2026 03:26:44 GMT",
+      "etag": "\"0x8DE6141B99F69C5\"",
+      "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fu-boot%2Fu-boot-sm8150-xiaomi-raphael.img.zip"
+    },
+    "cache": {
+      "ubuntu-server": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/ubuntu-server-v6.18/xiaomi-k20pro-boot.img",
+        "description": "Ubuntu服务器版系统镜像 - 缓存分区",
+        "size": 268435456,
+        "size_human": "256 MB",
+        "asset_id": 348541137,
+        "uploaded_at": "2026-01-31T05:22:59Z",
+        "tag": "ubuntu-server-v6.18",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fubuntu-server-v6.18%2Fxiaomi-k20pro-boot.img",
+        "original_filename": "xiaomi-k20pro-boot.img"
+      },
+      "ubuntu-desktop": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/ubuntu-desktop-v6.18-phosh-core/xiaomi-k20pro-boot.img",
+        "description": "Ubuntu桌面版系统镜像 - 缓存分区",
+        "size": 268435456,
+        "size_human": "256 MB",
+        "asset_id": 348544541,
+        "uploaded_at": "2026-01-31T05:31:57Z",
+        "tag": "ubuntu-desktop-v6.18-phosh-core",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fubuntu-desktop-v6.18-phosh-core%2Fxiaomi-k20pro-boot.img",
+        "original_filename": "xiaomi-k20pro-boot.img"
+      },
+      "debian-server": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/debian-server-v6.18/xiaomi-k20pro-boot.img",
+        "description": "Debian服务器版系统镜像 - 缓存分区",
+        "size": 268435456,
+        "size_human": "256 MB",
+        "asset_id": 348539621,
+        "uploaded_at": "2026-01-31T05:13:20Z",
+        "tag": "debian-server-v6.18",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fdebian-server-v6.18%2Fxiaomi-k20pro-boot.img",
+        "original_filename": "xiaomi-k20pro-boot.img"
+      },
+      "debian-desktop": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/debian-desktop-v6.18-phosh-core/xiaomi-k20pro-boot.img",
+        "description": "Debian桌面版系统镜像 - 缓存分区",
+        "size": 268435456,
+        "size_human": "256 MB",
+        "asset_id": 348544745,
+        "uploaded_at": "2026-01-31T05:32:58Z",
+        "tag": "debian-desktop-v6.18-phosh-core",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fdebian-desktop-v6.18-phosh-core%2Fxiaomi-k20pro-boot.img",
+        "original_filename": "xiaomi-k20pro-boot.img"
+      }
+    },
+    "userdata": {
+      "ubuntu-server": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/ubuntu-server-v6.18/rootfs.7z",
+        "description": "Ubuntu服务器版系统镜像",
+        "extracted_file": "rootfs.img",
+        "size": 462923158,
+        "size_human": "441.48 MB",
+        "asset_id": 348541135,
+        "uploaded_at": "2026-01-31T05:23:04Z",
+        "tag": "ubuntu-server-v6.18",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fubuntu-server-v6.18%2Frootfs.7z"
+      },
+      "ubuntu-desktop": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/ubuntu-desktop-v6.18-phosh-core/rootfs.7z",
+        "description": "Ubuntu桌面版系统镜像",
+        "extracted_file": "rootfs.img",
+        "size": 1762313750,
+        "size_human": "1.64 GB",
+        "asset_id": 348544539,
+        "uploaded_at": "2026-01-31T05:32:27Z",
+        "tag": "ubuntu-desktop-v6.18-phosh-core",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fubuntu-desktop-v6.18-phosh-core%2Frootfs.7z"
+      },
+      "debian-server": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/debian-server-v6.18/rootfs.7z",
+        "description": "Debian服务器版系统镜像",
+        "extracted_file": "rootfs.img",
+        "size": 266472780,
+        "size_human": "254.13 MB",
+        "asset_id": 348539619,
+        "uploaded_at": "2026-01-31T05:13:20Z",
+        "tag": "debian-server-v6.18",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fdebian-server-v6.18%2Frootfs.7z"
+      },
+      "debian-desktop": {
+        "url": "https://github.com/ccmx200/linux-xiaomi-raphael-uboot/releases/download/debian-desktop-v6.18-phosh-core/rootfs.7z",
+        "description": "Debian桌面版系统镜像",
+        "extracted_file": "rootfs.img",
+        "size": 1333983180,
+        "size_human": "1.24 GB",
+        "asset_id": 348544744,
+        "uploaded_at": "2026-01-31T05:33:24Z",
+        "tag": "debian-desktop-v6.18-phosh-core",
+        "info_endpoint": "/file-info/https%3A%2F%2Fgithub.com%2Fccmx200%2Flinux-xiaomi-raphael-uboot%2Freleases%2Fdownload%2Fdebian-desktop-v6.18-phosh-core%2Frootfs.7z"
+      }
+    }
+  },
+  "mirror_list": [
+    "https://up-c1.cuicanmx.cn/",
+    "https://up-c2.cuicanmx.cn/",
+    "https://up-c3.cuicanmx.cn/",
+    "https://github.akams.cn/",
+    "https://gh.jasonzeng.dev/",
+    "https://ghfast.top/",
+    "https://wget.la/",
+    "https://slink.ltd/",
+    "https://gh.con.sh/",
+    "https://proxy.zyun.vip/",
+    "https://github.moeyy.xyz/",
+    "https://gitclone.com/"
+  ],
+  "endpoints": {
+    "config": "/auto-dl.json",
+    "file_info": "/file-info/{encoded_url}",
+    "download_proxy": "/{github_release_url}"
+  },
+  "stats": {
+    "total_distros": 4,
+    "userdata_available": 4,
+    "cache_available": 4,
+    "warnings": null
+  }
+}
